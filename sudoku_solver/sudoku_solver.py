@@ -13,7 +13,7 @@ class Matrix:
         self.iterations = 0
         
     def get_potential_numbers(self):
-    # Determine all potential values for each non-known element.
+    # Determine all potential values for each unknown element.
     
         self.potential_array = np.empty((9, 9), dtype=object)
         for self.iy in range(0, SIZE**2):
